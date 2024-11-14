@@ -1,56 +1,95 @@
+body{
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #container {
-        height: 450px;
-        width: 550px;
+        height: 500px;
+        width: 500px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        Border: 2px solid black;
-        border-radius: 8px;
-        background-image:url("spiderman3.gif");
+        Border: 2px solid rgb(5, 5, 5);
+        border-radius: 15px;
+        background-image:url("spiderman5.gif");
         background-size: cover;
-        color: white;
+        color: rgb(219, 208, 208);
+       
+        
     
 }
 
 form {
     width: 320px;
-    height: 300px;
-    border: 2px solid white;
-    border-radius: 8px;
+    height: 350px;
+    border: 2px solid rgb(219, 208, 208);;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: rgba(15, 12, 12, 0.8);
-    font-size:20px;
+    font-size:15px;
+    color:rgb(218, 66, 66);
+    color: rgb(219, 208, 208);
+
    
 }
 
 input{
     width:250px;
-    height:32px;
+    height:37px;
     border: 2px solid rgba(245, 242, 242, 0.5);
-    border-radius:6px;
+    border-radius:10px;
     background-color: black;
     color:white;
+    position:relative;
+    bottom:30px;
+
 }
 
+#passwordbox{
+    position:relative;
+    bottom:60px;
+}
 a{
     text-decoration: none;
     color:red;
-    font-size:15px;
-   position:absolute;
-   
+    font-size:13px;
+    position:relative;
+    right:75px;
+    bottom:60px;
     
 }
+#button1{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background-image: url("button.png");
+    background-size: cover;
+
+}
+
 #button2{
     width:150px;
-height:35px;
-position:relative;
-bottom:35px;
-border-radius:8px;
-background-color:darkgrey;
-color:rgb(5, 5, 5);
-font-size: 14px;
+    height:37px;
+    position:relative;
+    bottom:85px;
+    border-radius:15px;
+    background-color:darkgrey;
+    color:white;
+    font-size: 14px;
+
 }
+b{
+    font-size:17px;
+   
+}
+ #password{
+    position:relative;
+    bottom:30px;
+
+ }
+
+
+   
 
