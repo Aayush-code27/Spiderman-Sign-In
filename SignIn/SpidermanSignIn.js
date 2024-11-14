@@ -1,1 +1,1 @@
-console.log("Hello Javascript");
+alert("It's time");
