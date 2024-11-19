@@ -1,95 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Trebuchet MS';
+}
 body{
     background-color: black;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* background-image: url("/SignIn/light.gif"); */
 }
-#container {
-        height: 500px;
-        width: 500px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        Border: 2px solid rgb(5, 5, 5);
-        border-radius: 15px;
-        background-image:url("spiderman5.gif");
-        background-size: cover;
-        color: rgb(219, 208, 208);
-       
-        
-    
+#dashboard{
+    width:1000px;
+    height:500px;
+    display:flex;
+    flex-direction: row; 
+    justify-content: center;
+    position:absolute;
+    left:185px;
+    top:50px;
+    border: 2px solid white;
+    /* border-radius: 16px; */
 }
 
-form {
-    width: 320px;
-    height: 350px;
-    border: 2px solid rgb(219, 208, 208);;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
+#Signin{
+    width:550px;
+    height:500px;
+    display:flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: rgba(15, 12, 12, 0.8);
-    font-size:15px;
-    color:rgb(218, 66, 66);
-    color: rgb(219, 208, 208);
-
-   
+    background-color: black;
+    /* border-radius: 16px; */
+ 
 }
+
+form{
+    width:350px;
+    height:350px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 8px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;   
+}
+
+
 
 input{
-    width:250px;
-    height:37px;
-    border: 2px solid rgba(245, 242, 242, 0.5);
-    border-radius:10px;
+    width:290px;
+    height:40px;
+    border:2px solid rgb(3, 3, 3);
+    border-radius: 6px;
+    outline:none;
+}
+p{
+    position:relative;
+    right:113px;
+    font-size: 16px;
+}
+button{
+    width:150px;
+    height:46px;
+    border: 2px solid black;
+    border-radius: 8px;
     background-color: black;
     color:white;
-    position:relative;
-    bottom:30px;
-
+    font-size: 15px;
+    cursor: pointer;
 }
 
-#passwordbox{
-    position:relative;
-    bottom:60px;
-}
-a{
-    text-decoration: none;
-    color:red;
-    font-size:13px;
-    position:relative;
-    right:75px;
-    bottom:60px;
-    
-}
-#button1{
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    background-image: url("button.png");
+#Signup{
+    width:500px;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("/SignIn/food2.gif");
     background-size: cover;
-
+    color:rgb(0, 0, 0);
+    /* border-radius: 16px; */
 }
-
-#button2{
-    width:150px;
-    height:37px;
-    position:relative;
-    bottom:85px;
-    border-radius:15px;
-    background-color:darkgrey;
-    color:white;
-    font-size: 14px;
-
+button:hover{
+    border:2px solid white;
 }
-b{
-    font-size:17px;
-   
-}
- #password{
-    position:relative;
-    bottom:30px;
-
- }
-
-
-   
-
