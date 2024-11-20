@@ -84,3 +84,52 @@ button{
 button:hover{
     border:2px solid white;
 }
+
+
+
+
+    @media (max-width:360px) {
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        body{
+        
+
+        }
+        #dashboard{
+            width:360px;
+            height:760px;
+            display:flex;
+            flex-direction: row; 
+            justify-content: left;
+            border: 2px solid white;
+            position:absolute;
+            left:0px;
+            top:0px;
+            
+        }
+         #Signin{
+            width:360px;
+            height:740px;     
+            background-color: black;
+            border-radius: 16px;
+            display:flex;
+            justify-content: left;
+            
+        }
+        form{
+            width:340px;
+            height:350px;
+            border: 2px solid black;
+            background-color: white;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            position:absolute;
+            left:6px;
+        } 
+        #Signup{
+            visibility: hidden;
+      }
+    }
